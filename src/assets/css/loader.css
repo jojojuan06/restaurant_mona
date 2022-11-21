@@ -1,0 +1,146 @@
+.loader {
+    display: flex;
+    background-color: rgba(255, 255, 255, 1);
+    height: 100%;
+    position: fixed;
+    z-index: 30;
+    width: calc(100%);
+    opacity: 1;
+    animation: 2s fade-in linear 1s forwards, 1s fade-out linear 3s forwards;
+}
+.loader__container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+.loader__text p {
+    font-size: 50px;
+}
+.loader__text {
+    padding: 0.5rem;
+    background: linear-gradient(#9356dc, #ff79da);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.loader__quart {
+    border-radius: 50px;
+    border: 6px solid rgba(255, 255, 255, 0.4);
+    margin: 0;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.loader__quart:after {
+    content: "";
+    position: absolute;
+    top: -6px;
+   /* loader spin*/
+    left: -6px;
+    bottom: -6px;
+    right: -6px;
+    border-radius: 50px;
+    border: 6px solid rgba(0, 0, 0, 0.25);
+    border-top-color: #2bb391;
+    animation: 1.5s spin linear infinite;
+}
+.loader__title {
+    display: flex;
+    flex-direction: column;
+}
+.loader__point {
+    display: flex;
+    margin: auto;
+}
+.loader__point--1 {
+    background-color: #9356dc;
+    font-size: 8px;
+    color: transparent;
+    animation-name: point;
+    animation-delay: 0s;
+}
+.loader__point--2 {
+    background-color: #ff79da;
+    font-size: 8px;
+    color: transparent;
+    animation-name: point;
+    animation-delay: 0.4s;
+}
+.loader__point--3 {
+    background-color: #9356dc;
+    font-size: 8px;
+    color: transparent;
+    animation-name: point;
+    animation-delay: 0.6s;
+}
+.loader__point--1, .loader__point--2, .loader__point--3 {
+    display: inline-block;
+    align-self: center;
+    justify-content: space-around;
+    margin-left: 2px;
+    margin-right: 2px;
+    border-radius: 50%;
+    width: 5px;
+    animation: point 1.5s ease-in-out infinite;
+}
+
+  /* loader spin La fonction rotate() définit une transformation qui déplace un élément autour d'un point fixe */
+@keyframes spin_checking
+{
+  0%
+  {
+    transform: rotate(-270deg);     
+  }
+  100%
+  {
+    transform: rotate(0deg);
+  }
+}
+
+/* loader scale() permet de modifier la taille d'un élément avec un facteur d'échelle sur deux */
+@keyframes point{
+  0%
+  { 
+    transform:scale(0.2);
+  }
+  50%
+  {
+    transform:scale(1);
+  }
+  100%
+  {
+    transform:scale(0.2); 
+  }
+}
+/* loader point animation */
+
+@keyframes spin {
+  0%{ transform: rotate(0deg);}
+  100%{transform: rotate(360deg);}
+}
+
+
+
+
+/* loader preview */
+
+
+@keyframes fade-in
+{
+  0%, 99% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-out
+{
+  99%, 100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
