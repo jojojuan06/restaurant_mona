@@ -16,8 +16,7 @@ module.exports = {
         body:['Pinyon Script']
       },
       backgroundImage: {
-        'banniere2': "url('/public/images/Bandeau_2.png')",
-        'banniere3': "url('/public/images/Bandeau_3.png')"
+        'banniere2': "url('/public/images/Bandeau_2.png')"
       }
     },
   },
