@@ -52,7 +52,7 @@ export default {
   data() {
     return {
       visibleSlide:0,
-      direction:'left',
+      direction:'',
       Slides: ["photo-1","photo-2", "photo-3", "photo-4", "photo-5", "photo-6" , "photo-1"]
     }
   },
@@ -106,7 +106,6 @@ header {
 
 body {
   background-color: #d9d9d9;
-  
 }
 html, body {
   height: 100%;
