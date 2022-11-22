@@ -22,9 +22,9 @@
      </div>
     </header>
   <main class="flex-grow"> 
-      <Carousel @next="next" @prev="prev" class="pb-2 pt-2 bg-[#343434]">
-        <carousel-slide v-for="(slide, index) in Slides" :key="index" :visibleSlide="visibleSlide" :index="index" :direction="direction" class="flex items-center justify-center  w-full  min-w-[300px]">
-            <img :src="require(`../public/images/${slide}.png`)" :alt="slide" class="w-full max-w-[800px] h-[200px] object-fill rounded-md">
+      <Carousel @next="next" @prev="prev" class="pb-2 pt-2 bg-banniere3 flex justify-center">
+        <carousel-slide v-for="(slide, index) in Slides" :key="index" :visibleSlide="visibleSlide" :index="index" :direction="direction" class="flex items-center justify-center  w-full  min-w-[300px] max-w-[800px]">
+            <img :src="require(`../public/images/${slide}.png`)" :alt="slide" class="w-[100%]  h-72 object-fill rounded-md">
         </carousel-slide>
       </Carousel>
       <div class="flex justify-center items-center min-h-screen bg-center bg-banniere2 bg-no-repeat bg-cover">
