@@ -6,10 +6,6 @@ module.exports = {
         'tablet': '680px',
         'midScreen':'880px',
       },
-      keyframes: {
-      },
-      animation: {
-      },
       colors: {
       },
       fontFamily:{
@@ -17,6 +13,15 @@ module.exports = {
       },
       backgroundImage: {
         'banniere2': "url('/public/images/Bandeau_2.png')"
+      },
+      keyframes: {
+        fadeSlide: {
+          '0%': { opacity:'0' },
+          '100%': { opacity:'1'},
+        }
+      },
+      animation: {
+          fadeSlide: 'fadeSlide 1.2s ease-in  forwards',
       }
     },
   },

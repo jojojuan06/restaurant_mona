@@ -1,5 +1,5 @@
 <template>
-    <div class="loader">
+    <!-- <div class="loader">
       <div class="loader__container">
         <span class="loader__quart"></span>
         <div class="loader__title">
@@ -11,7 +11,7 @@
           </div>
        </div>
       </div>
-    </div>
+    </div> -->
     <header class="w-full h-32 flex">
       <div class="flex items-center justify-end   w-full ">
         <div class="flex justify-center md:justify-between w-full  flex-wrap md:flex-no-wrap">
@@ -23,13 +23,13 @@
     </header>
   <main class="flex-grow"> 
       <Carousel @next="next" @prev="prev" class="pb-2 pt-2  flex justify-center">
-        <carousel-slide v-for="(slide, index) in Slides" :key="index" :visibleSlide="visibleSlide" :index="index" :direction="direction" class="flex items-center justify-center  w-full  min-w-[300px] max-w-[800px]">
-            <img :src="require(`../public/images/${slide}.png`)" :alt="slide" class="w-[100%]  h-72 object-cover object-bottom rounded-md">
+        <carousel-slide v-for="(slide, index) in Slides" :key="index" :visibleSlide="visibleSlide" :index="index"  class="overflow-hidden flex items-center justify-center  w-full  min-w-[300px] max-w-[800px]">
+            <img :src="require(`../public/images/${slide}.png`)" :alt="slide" class="w-1/2 h-72 object-fill object-bottom rounded-md animate-fadeSlide">
         </carousel-slide>
       </Carousel>
-      <div class="flex justify-center items-center min-h-screen bg-center bg-banniere2 bg-no-repeat bg-cover">
-        <div class="self-start pt-8">
-            <h2 class="shadow-title font-body text-[#0D146F] text-[5rem] md:text-[10rem]">We are open soon !</h2>
+      <div class="flex justify-center items-center  bg-banniere2 bg-no-repeat bg-cover max-w-full min-h-[50vh] bg-center">
+        <div class="self-start">
+            <h2 class="pt-8 shadow-title font-body text-[#0D146F] text-[5rem] md:text-[10rem]">We are open soon !</h2>
         </div>
       </div>
   </main>
@@ -49,10 +49,12 @@ export default {
     Carousel,
     CarouselSlide
   },
+  mounted() {
+    setInterval(this.next, 6000);
+  },
   data() {
     return {
       visibleSlide:0,
-      direction:'',
       Slides: ["photo-1","photo-2", "photo-3", "photo-4", "photo-5", "photo-6" , "photo-1"]
     }
   },
@@ -68,7 +70,6 @@ export default {
       }else {
         this.visibleSlide++;
       }
-      this.direction="left"
     },
     prev(){
       if (this.visibleSlide <= 0) {
@@ -76,15 +77,13 @@ export default {
       }else {
         this.visibleSlide--;
       }
-      this.direction="right"
     }
-  },
-  mounted() {
-    setInterval(this.next, 6000);
   },
 }
 </script>
 <style >
+* { margin: 0px; padding: 0px; }
+
 .carousel {
   background-image: url('../public/images/Bandeau_3.jpg');
 }
@@ -109,7 +108,6 @@ body {
 }
 html, body {
   height: 100%;
-  min-height: 100%;
 }
 .carousel {
         position:relative;
