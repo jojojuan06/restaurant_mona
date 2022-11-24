@@ -17,7 +17,7 @@
         <div class="flex justify-center md:justify-between w-full  flex-wrap md:flex-no-wrap">
           <div></div>
           <img src="../src/assets/images/Logo_1.png" alt="logo" class="max-w-[18rem] md:max-w-sm">
-          <img src="../src/assets/images/Logo_3.png" alt="logo" class="md:max-w-[18rem] max-w-[3rem]">
+          <img src="../src/assets/images/Logo_3.png" alt="logo" class="hover:cursor-pointer transition duration-500 transform hover:rotate-180 md:max-w-[18rem] max-w-[3rem]">
         </div>
      </div>
     </header>
@@ -82,7 +82,11 @@ export default {
 }
 </script>
 <style >
-* { margin: 0px; padding: 0px; }
+* { 
+  margin: 0px; 
+  padding: 0px; 
+  box-sizing: border-box;
+}
 
 .carousel {
   background-image: url('../public/images/Bandeau_3.jpg');
