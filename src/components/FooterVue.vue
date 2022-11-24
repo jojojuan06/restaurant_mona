@@ -6,10 +6,10 @@
                     <!-- boucle sur chaque link (ajouter dans le futur et je les affiches   -->  
                     <div  class="flex justify-center items-center">
                         <div class="flex">
-                            <a class="text-base font-bold pr-2 hover:text-[#ED69BD] .no-underline" href="#">Mention Légales</a>
+                            <a class="text-base font-bold pr-2 hover:text-[#0D146F] .no-underline" href="#">Mention Légales</a>
                             <span class="font-bold">-</span>  
                             <span class="mr-2 text-center mdi mdi-mail"></span>
-                            <a class="text-base font-bold ml-2 hover:text-[#ED69BD] .no-underline" href="#">Contact</a>  
+                            <a class="text-base font-bold ml-2 hover:text-[#0D146F] .no-underline" href="#">Contact</a>  
                         </div>
                     </div>
                     <div class="pb-3 text-center">
