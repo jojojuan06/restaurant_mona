@@ -1,8 +1,8 @@
 <template>
   <div  class="carousel">
     <slot></slot>
-    <button @click="next" class="next text-white font-bold p-[4px] rounded">Next</button>
-    <button @click="prev" class="prev text-white font-bold p-[4px]  rounded">Prev</button>
+    <button @click="next" class="md:right-[20%] duration-300 next text-white font-bold p-[4px] rounded">Next</button>
+    <button @click="prev" class="md:left-[20%] duration-300  prev text-white font-bold p-[4px]  rounded">Prev</button>
   </div>
 </template>
 

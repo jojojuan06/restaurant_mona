@@ -23,11 +23,11 @@
     </header>
   <main class="flex-grow"> 
       <Carousel @next="next" @prev="prev" class="pb-2 pt-2  flex justify-center">
-        <carousel-slide v-for="(slide, index) in Slides" :key="index" :visibleSlide="visibleSlide" :index="index"  class="overflow-hidden flex items-center justify-center  w-full  min-w-[300px] max-w-[800px]">
-            <img :src="require(`../public/images/${slide}.png`)" :alt="slide" class="w-1/2 h-72 object-fill object-bottom rounded-md animate-fadeSlide">
+        <carousel-slide v-for="(slide, index) in Slides" :key="index" :visibleSlide="visibleSlide" :index="index"  class="overflow-hidden flex items-center justify-center  w-full  md:min-w-[300px] max-w-[800px]">
+            <img :src="require(`../public/images/${slide}.png`)" :alt="slide" class="duration-500 w-full md:w-1/2 h-72 object-fill object-bottom rounded-md animate-fadeSlide">
         </carousel-slide>
       </Carousel>
-      <div class="flex justify-center items-center  bg-banniere2 bg-no-repeat bg-cover max-w-full min-h-[50vh] bg-center">
+      <div class="flex justify-center items-center  bg-banniere2 bg-no-repeat bg-cover max-w-full min-h-[44vh] bg-center">
         <div class="self-start">
             <h2 class="pt-8 shadow-title font-body text-[#0D146F] text-[5rem] md:text-[10rem]">We are open soon !</h2>
         </div>
