@@ -33,6 +33,6 @@ name:'FooterVue',
 
 <style scoped>
 footer {
-    background-image: url('/public/images/Bandeau_3.jpg');
+    background-image: url('/public/images/Bandeau_3.png');
 }
 </style>

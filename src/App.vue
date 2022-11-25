@@ -23,13 +23,13 @@
     </header>
   <main class="flex-grow"> 
       <Carousel @next="next" @prev="prev" class="pb-2 pt-2  flex justify-center">
-        <carousel-slide v-for="(slide, index) in Slides" :key="index" :visibleSlide="visibleSlide" :index="index"  class="overflow-hidden flex items-center justify-center  w-full  md:min-w-[300px] max-w-[800px]">
-            <img :src="require(`../public/images/${slide}.png`)" :alt="slide" class="duration-500 w-full md:w-1/2 h-72 object-fill object-bottom rounded-md animate-fadeSlide">
+        <carousel-slide v-for="(slide, index) in Slides" :key="index" :visibleSlide="visibleSlide" :index="index"  class="overflow-hidden flex items-center justify-center  w-full  md:min-w-[500px] max-w-[800px]">
+            <img :src="require(`../public/images/${slide}.png`)" :alt="slide" class="duration-500 w-full  h-[450px] object-fill relative z-40 object-bottom rounded-md animate-fadeSlide">
         </carousel-slide>
       </Carousel>
       <div class="flex justify-center items-center  bg-banniere2 bg-no-repeat bg-cover max-w-full min-h-[44vh] bg-center">
         <div class="self-start">
-            <h2 class="pt-8 shadow-title font-body text-[#0D146F] text-[5rem] md:text-[10rem]">We are open soon !</h2>
+            <h2 class="pt-8 shadow-title font-body  text-[#0D146F] text-[2.5rem] md:text-[10rem]">We are open soon !</h2>
         </div>
       </div>
   </main>
@@ -55,7 +55,7 @@ export default {
   data() {
     return {
       visibleSlide:0,
-      Slides: ["photo-1","photo-2", "photo-3", "photo-4", "photo-5", "photo-6" , "photo-1"]
+      Slides: ["photo-1","photo-2", "photo-3", "photo-4", "photo-5", "photo-6" , "photo-7","photo-8"]
     }
   },
   computed:{
@@ -87,10 +87,10 @@ export default {
   padding: 0px; 
   box-sizing: border-box;
 }
-
-.carousel {
-  background-image: url('../public/images/Bandeau_3.jpg');
+h2 {
+  white-space: nowrap;
 }
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -103,7 +103,7 @@ export default {
 }
 
 header {
-  background-image: url('../src/assets/images/Bandeau_1.jpg');
+  background-image: url('../src/assets/images/Bandeau_1.png');
   background-repeat: no-repeat;
 }
 
@@ -117,6 +117,11 @@ html, body {
         position:relative;
         overflow: hidden;
         z-index:10;
+}
+.carousel svg {
+  position: absolute;
+  bottom:0;
+  z-index: 30;
 }
 .shadow-title {
   text-shadow: 2px 1px 2px white;

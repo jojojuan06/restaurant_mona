@@ -1,13 +1,15 @@
 <template>
   <div  class="carousel">
     <slot></slot>
-    <button @click="next" class="md:right-[20%] duration-300 next text-white font-bold p-[4px] rounded">Next</button>
-    <button @click="prev" class="md:left-[20%] duration-300  prev text-white font-bold p-[4px]  rounded">Prev</button>
+    <button @click="next" class="md:right-[15%] w-24 text-center duration-300 next text-white font-bold p-[4px] rounded">Suivant</button>
+    <button @click="prev" class="md:left-[15%] w-24  text-center duration-300  prev text-white font-bold p-[4px]  rounded">Précédent</button>
   </div>
 </template>
 
 <script>
 export default {
+
+
 data() {
   return {
     
@@ -41,10 +43,12 @@ button:active, button:hover {
   cursor: pointer;
 }
 .next {
+  z-index: 50;
   right: 0;
   background-color: rgba(0,0,0,0.4);
 }
 .prev {
+  z-index: 45;
   left: 0;
   background-color: rgba(0,0,0,0.4);
 }
