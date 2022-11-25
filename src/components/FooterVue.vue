@@ -17,7 +17,7 @@
                     </div>
                 </div>
                 <div class="mb-2 mr-2">
-                    <img src="../assets/images/Logo_2.png" alt="">
+                    <img src="../assets/images/Logo_2.png" class="w-16 md:w-full" alt="logo">
                 </div>
             </div>
             

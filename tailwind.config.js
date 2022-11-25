@@ -14,14 +14,12 @@ module.exports = {
       backgroundImage: {
         'banniere2': "url('/public/images/Bandeau_2.png')"
       },
-      keyframes: {
-        fadeSlide: {
-          '0%': { opacity:'0' },
-          '100%': { opacity:'1'},
-        }
+      transformOrigin: {
+                'lastScale': 'bottom right 60px;',
+                'firstScale': 'bottom left 700px;'
       },
-      animation: {
-          fadeSlide: 'fadeSlide 1.2s ease-in  forwards',
+      backgroundSize: {
+        'bannierecover2':'100% auto;'
       }
     },
   },

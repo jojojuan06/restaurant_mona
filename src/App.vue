@@ -13,7 +13,7 @@
       </div>
     </div> -->
     <header class="w-full h-32 flex">
-      <div class="flex items-center justify-end   w-full ">
+      <div class="flex items-center justify-end  w-full">
         <div class="flex justify-center md:justify-between w-full  flex-wrap md:flex-no-wrap">
           <div></div>
           <img src="../src/assets/images/Logo_1.png" alt="logo" class="max-w-[18rem] md:max-w-sm">
@@ -21,16 +21,19 @@
         </div>
      </div>
     </header>
-  <main class="flex-grow"> 
-      <Carousel @next="next" @prev="prev" class="pb-2 pt-4  flex justify-center">
-        <carousel-slide v-for="(slide, index) in Slides" :key="index" :visibleSlide="visibleSlide" :index="index"  class="mb-4 overflow-hidden flex items-center justify-center  w-full  md:min-w-[500px] max-w-[800px]">
-            <img :src="require(`../public/images/${slide}.png`)" :alt="slide" class="duration-500 w-full  h-[400px] object-fill relative z-40 object-bottom rounded-md animate-fadeSlide">
-        </carousel-slide>
-      </Carousel>
-      <div class="flex justify-center items-center  bg-banniere2 bg-no-repeat bg-cover max-w-full min-h-[44vh] bg-center">
-        <div class="self-start  relative top-[50px] md:top-[-27px] ">
-            <h2 class="shadow-title font-body  text-[#0D146F] text-[2.5rem] md:text-[10rem]">We are open soon !</h2>
-        </div>
+  <main class="flex-grow h-full"> 
+      <div class="w-full justify-center pb-2  flex overflow-scroll md:overflow-visible">
+        <img src="../public/images/photo-1.png" class="w-1/4 md:w-[12%] border-black border-2 ml-2 transform duration-300 relative hover:z-20  hover:cursor-pointer hover:scale-150 origin-firstScale" alt="photo">
+        <img src="../public/images/photo-2.png" class="w-1/4 md:w-[12%] border-black border-2 ml-2 transform duration-300 relative hover:z-20  hover:cursor-pointer hover:scale-150" alt="photo">
+        <img src="../public/images/photo-3.png" class="w-1/4 md:w-[12%] border-black border-2 ml-2 transform duration-300 relative hover:z-20  hover:cursor-pointer hover:scale-150" alt="photo">
+        <img src="../public/images/photo-4.png" class="w-1/4 md:w-[12%] border-black border-2 ml-2 transform duration-300 relative hover:z-20  hover:cursor-pointer hover:scale-150" alt="photo">
+        <img src="../public/images/photo-5.png" class="w-1/4 md:w-[12%] border-black border-2 ml-2 transform duration-300 relative hover:z-20  hover:cursor-pointer hover:scale-150" alt="photo">
+        <img src="../public/images/photo-6.png" class="w-1/4 md:w-[12%] border-black border-2 ml-2 transform duration-300 relative hover:z-20  hover:cursor-pointer hover:scale-150" alt="photo">
+        <img src="../public/images/photo-7.png" class="w-1/4 md:w-[12%] border-black border-2 ml-2 transform duration-300 relative hover:z-20  hover:cursor-pointer hover:scale-150" alt="photo">
+        <img src="../public/images/photo-8.png" class="w-1/4 md:w-[12%] border-black border-2 ml-2 transform duration-300 relative hover:z-20  hover:cursor-pointer hover:scale-150 origin-lastScale" alt="photo">
+      </div>
+      <div class="relative bg-banniere2 h-screen bg-no-repeat bg-cover  bg-center w-full bg-bannierecover">
+          <h2 class="shadow-title font-body  text-[#0D146F] text-[2.5rem] md:text-[10rem]">We are open soon !</h2>
       </div>
   </main>
   <FooterVue/>
@@ -38,54 +41,28 @@
 
 <script>
 import FooterVue from '@/components/FooterVue.vue';
-import Carousel from '@/components/Carousel.vue';
-import CarouselSlide from '@/components/CarouselSlide.vue';
+
 
 
 export default {
   name: 'App',
   components: {
     FooterVue,
-    Carousel,
-    CarouselSlide
-  },
-  mounted() {
-    setInterval(this.next, 6000);
-  },
-  data() {
-    return {
-      visibleSlide:0,
-      Slides: ["photo-1","photo-2", "photo-3", "photo-4", "photo-5", "photo-6" , "photo-7","photo-8"]
-    }
-  },
-  computed:{
-    sliedesLength(){
-      return this.Slides.length;
-    }
-  },
-  methods: {
-    next(){
-      if (this.visibleSlide >= this.sliedesLength - 1) {
-        this.visibleSlide = 0;
-      }else {
-        this.visibleSlide++;
-      }
-    },
-    prev(){
-      if (this.visibleSlide <= 0) {
-        this.visibleSlide = this.sliedesLength -1;
-      }else {
-        this.visibleSlide--;
-      }
-    }
   },
 }
 </script>
 <style >
 * { 
-  margin: 0px; 
-  padding: 0px; 
   box-sizing: border-box;
+  padding: 0;
+}
+body {
+  background-color: #d9d9d9;
+  padding: 0px; 
+}
+html, body {
+  height: 100%;
+  margin: 0
 }
 h2 {
   white-space: nowrap;
@@ -107,26 +84,7 @@ header {
   background-repeat: no-repeat;
 }
 
-body {
-  background-color: #d9d9d9;
-}
-html, body {
-  height: 100%;
-}
-.carousel {
-        position:relative;
-        overflow: hidden;
-        z-index:10;
-        background-image: url('../public/images/photo-8.png');
-        background-size: cover;
-}
-.carousel svg {
-  position: absolute;
-  bottom:0;
-  z-index: 30;
-}
-.shadow-title {
-  text-shadow: 2px 1px 2px white;
-}
+
+
 @import url('../src/assets/css/loader.css');
 </style>
