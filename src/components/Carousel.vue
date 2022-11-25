@@ -45,7 +45,7 @@ button:active, button:hover {
 .next {
   z-index: 50;
   right: 0;
-  background-color: rgba(0,0,0,0.4);
+  background-color: rgba(0,0,0,0.6);
 }
 .prev {
   z-index: 45;

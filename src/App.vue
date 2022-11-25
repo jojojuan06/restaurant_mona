@@ -22,14 +22,14 @@
      </div>
     </header>
   <main class="flex-grow"> 
-      <Carousel @next="next" @prev="prev" class="pb-2 pt-2  flex justify-center">
-        <carousel-slide v-for="(slide, index) in Slides" :key="index" :visibleSlide="visibleSlide" :index="index"  class="overflow-hidden flex items-center justify-center  w-full  md:min-w-[500px] max-w-[800px]">
-            <img :src="require(`../public/images/${slide}.png`)" :alt="slide" class="duration-500 w-full  h-[450px] object-fill relative z-40 object-bottom rounded-md animate-fadeSlide">
+      <Carousel @next="next" @prev="prev" class="pb-2 pt-4  flex justify-center">
+        <carousel-slide v-for="(slide, index) in Slides" :key="index" :visibleSlide="visibleSlide" :index="index"  class="mb-4 overflow-hidden flex items-center justify-center  w-full  md:min-w-[500px] max-w-[800px]">
+            <img :src="require(`../public/images/${slide}.png`)" :alt="slide" class="duration-500 w-full  h-[400px] object-fill relative z-40 object-bottom rounded-md animate-fadeSlide">
         </carousel-slide>
       </Carousel>
       <div class="flex justify-center items-center  bg-banniere2 bg-no-repeat bg-cover max-w-full min-h-[44vh] bg-center">
-        <div class="self-start">
-            <h2 class="pt-8 shadow-title font-body  text-[#0D146F] text-[2.5rem] md:text-[10rem]">We are open soon !</h2>
+        <div class="self-start  relative top-[50px] md:top-[-27px] ">
+            <h2 class="shadow-title font-body  text-[#0D146F] text-[2.5rem] md:text-[10rem]">We are open soon !</h2>
         </div>
       </div>
   </main>
@@ -117,6 +117,8 @@ html, body {
         position:relative;
         overflow: hidden;
         z-index:10;
+        background-image: url('../public/images/photo-8.png');
+        background-size: cover;
 }
 .carousel svg {
   position: absolute;
