@@ -15,8 +15,8 @@ module.exports = {
         'banniere2': "url('/public/images/Bandeau_2.png')"
       },
       transformOrigin: {
-                'lastScale': 'bottom right 60px;',
-                'firstScale': 'bottom left 700px;'
+                'lastScale': 'bottom right 50px;',
+                'firstScale': 'bottom left 70px;'
       },
       backgroundSize: {
         'bannierecover2':'100% auto;'

@@ -1,5 +1,5 @@
 <template>
-    <!-- <div class="loader">
+    <div class="loader">
       <div class="loader__container">
         <span class="loader__quart"></span>
         <div class="loader__title">
@@ -11,7 +11,7 @@
           </div>
        </div>
       </div>
-    </div> -->
+    </div>
     <header class="w-full h-32 flex">
       <div class="flex items-center justify-end  w-full">
         <div class="flex justify-center md:justify-between w-full  flex-wrap md:flex-no-wrap">
@@ -22,17 +22,17 @@
      </div>
     </header>
   <main class="flex-grow h-full"> 
-      <div class="w-full justify-center pb-2  flex overflow-scroll md:overflow-visible">
-        <img src="../public/images/photo-1.png" class="w-1/4 md:w-[12%] border-black border-2 ml-2 transform duration-300 relative hover:z-20  hover:cursor-pointer hover:scale-150 origin-firstScale" alt="photo">
-        <img src="../public/images/photo-2.png" class="w-1/4 md:w-[12%] border-black border-2 ml-2 transform duration-300 relative hover:z-20  hover:cursor-pointer hover:scale-150" alt="photo">
-        <img src="../public/images/photo-3.png" class="w-1/4 md:w-[12%] border-black border-2 ml-2 transform duration-300 relative hover:z-20  hover:cursor-pointer hover:scale-150" alt="photo">
-        <img src="../public/images/photo-4.png" class="w-1/4 md:w-[12%] border-black border-2 ml-2 transform duration-300 relative hover:z-20  hover:cursor-pointer hover:scale-150" alt="photo">
-        <img src="../public/images/photo-5.png" class="w-1/4 md:w-[12%] border-black border-2 ml-2 transform duration-300 relative hover:z-20  hover:cursor-pointer hover:scale-150" alt="photo">
-        <img src="../public/images/photo-6.png" class="w-1/4 md:w-[12%] border-black border-2 ml-2 transform duration-300 relative hover:z-20  hover:cursor-pointer hover:scale-150" alt="photo">
-        <img src="../public/images/photo-7.png" class="w-1/4 md:w-[12%] border-black border-2 ml-2 transform duration-300 relative hover:z-20  hover:cursor-pointer hover:scale-150" alt="photo">
-        <img src="../public/images/photo-8.png" class="w-1/4 md:w-[12%] border-black border-2 ml-2 transform duration-300 relative hover:z-20  hover:cursor-pointer hover:scale-150 origin-lastScale" alt="photo">
+      <div class="w-full max-w-[100%] justify-center pb-2 overflow-x-scroll md:overflow-x-visible flex">
+        <img src="../public/images/photo-1.png" class="w-full max-w-[300px] md:w-[12%] border-black border-2 ml-2 transform duration-300 relative hover:z-20  hover:cursor-pointer hover:scale-[1.3] origin-firstScale" alt="photo">
+        <img src="../public/images/photo-2.png" class="w-full max-w-[300px] md:w-[12%] border-black border-2 ml-2 transform duration-300 relative hover:z-20  hover:cursor-pointer hover:scale-150" alt="photo">
+        <img src="../public/images/photo-3.png" class="w-full max-w-[300px] md:w-[12%] border-black border-2 ml-2 transform duration-300 relative hover:z-20  hover:cursor-pointer hover:scale-150" alt="photo">
+        <img src="../public/images/photo-4.png" class="w-full max-w-[300px] md:w-[12%] border-black border-2 ml-2 transform duration-300 relative hover:z-20  hover:cursor-pointer hover:scale-150" alt="photo">
+        <img src="../public/images/photo-5.png" class="w-full max-w-[300px] md:w-[12%] border-black border-2 ml-2 transform duration-300 relative hover:z-20  hover:cursor-pointer hover:scale-150" alt="photo">
+        <img src="../public/images/photo-6.png" class="w-full max-w-[300px] md:w-[12%] border-black border-2 ml-2 transform duration-300 relative hover:z-20  hover:cursor-pointer hover:scale-150" alt="photo">
+        <img src="../public/images/photo-7.png" class="w-full max-w-[300px] md:w-[12%] border-black border-2 ml-2 transform duration-300 relative hover:z-20  hover:cursor-pointer hover:scale-150" alt="photo">
+        <img src="../public/images/photo-8.png" class="w-full max-w-[300px] md:w-[12%] border-black border-2 ml-2 transform duration-300 relative hover:z-20  hover:cursor-pointer hover:scale-[1.3] origin-lastScale" alt="photo">
       </div>
-      <div class="relative bg-banniere2 h-screen bg-no-repeat bg-cover  bg-center w-full bg-bannierecover">
+      <div class="bg-banniere2  bg-no-repeat bg-cover min-h-screen bg-center  md:w-full bg-bannierecover">
           <h2 class="shadow-title font-body  text-[#0D146F] text-[2.5rem] md:text-[10rem]">We are open soon !</h2>
       </div>
   </main>
@@ -59,6 +59,7 @@ export default {
 body {
   background-color: #d9d9d9;
   padding: 0px; 
+  margin: 0;
 }
 html, body {
   height: 100%;
@@ -74,9 +75,10 @@ h2 {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  min-height:100vh;
+  min-height: 100%;
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
 }
 
 header {
