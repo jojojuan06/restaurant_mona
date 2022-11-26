@@ -1,5 +1,5 @@
 <template>
-    <div class="loader">
+    <!-- <div class="loader">
       <div class="loader__container">
         <span class="loader__quart"></span>
         <div class="loader__title">
@@ -11,7 +11,7 @@
           </div>
        </div>
       </div>
-    </div>
+    </div> -->
     <header class="w-full h-32 flex">
       <div class="flex items-center justify-end  w-full">
         <div class="flex justify-center md:justify-between w-full  flex-wrap md:flex-no-wrap">
@@ -21,16 +21,16 @@
         </div>
      </div>
     </header>
-  <main class="flex-grow h-full"> 
-      <div class="w-full max-w-[100%] justify-center pb-2 overflow-x-scroll md:overflow-x-visible flex">
-        <img src="../public/images/photo-1.png" class="w-full max-w-[300px] md:w-[12%] border-black border-2 ml-2 transform duration-300 relative hover:z-20  hover:cursor-pointer hover:scale-[1.3] origin-firstScale" alt="photo">
-        <img src="../public/images/photo-2.png" class="w-full max-w-[300px] md:w-[12%] border-black border-2 ml-2 transform duration-300 relative hover:z-20  hover:cursor-pointer hover:scale-150" alt="photo">
-        <img src="../public/images/photo-3.png" class="w-full max-w-[300px] md:w-[12%] border-black border-2 ml-2 transform duration-300 relative hover:z-20  hover:cursor-pointer hover:scale-150" alt="photo">
-        <img src="../public/images/photo-4.png" class="w-full max-w-[300px] md:w-[12%] border-black border-2 ml-2 transform duration-300 relative hover:z-20  hover:cursor-pointer hover:scale-150" alt="photo">
-        <img src="../public/images/photo-5.png" class="w-full max-w-[300px] md:w-[12%] border-black border-2 ml-2 transform duration-300 relative hover:z-20  hover:cursor-pointer hover:scale-150" alt="photo">
-        <img src="../public/images/photo-6.png" class="w-full max-w-[300px] md:w-[12%] border-black border-2 ml-2 transform duration-300 relative hover:z-20  hover:cursor-pointer hover:scale-150" alt="photo">
-        <img src="../public/images/photo-7.png" class="w-full max-w-[300px] md:w-[12%] border-black border-2 ml-2 transform duration-300 relative hover:z-20  hover:cursor-pointer hover:scale-150" alt="photo">
-        <img src="../public/images/photo-8.png" class="w-full max-w-[300px] md:w-[12%] border-black border-2 ml-2 transform duration-300 relative hover:z-20  hover:cursor-pointer hover:scale-[1.3] origin-lastScale" alt="photo">
+  <main class="flex-grow h-full "> 
+      <div class="w-full max-w-[100%]  md:gap-x-2 pb-2 overflow-x-scroll md:overflow-visible flex">
+        <img src="../public/images/photo-1.png" class="w-full  max-w-[222px]  border-black border-2 ml-2 transform duration-300 relative hover:z-20  hover:cursor-pointer md:hover:scale-[1.3] origin-firstScale" alt="photo">
+        <img src="../public/images/photo-2.png" class="w-full  max-w-[222px]  border-black border-2 ml-2 transform duration-300 relative hover:z-20  hover:cursor-pointer md:hover:scale-150" alt="photo">
+        <img src="../public/images/photo-3.png" class="w-full  max-w-[222px]  border-black border-2 ml-2 transform duration-300 relative hover:z-20  hover:cursor-pointer md:hover:scale-150" alt="photo">
+        <img src="../public/images/photo-4.png" class="w-full  max-w-[222px]  border-black border-2 ml-2 transform duration-300 relative hover:z-20  hover:cursor-pointer md:hover:scale-150" alt="photo">
+        <img src="../public/images/photo-5.png" class="w-full  max-w-[222px]  border-black border-2 ml-2 transform duration-300 relative hover:z-20  hover:cursor-pointer md:hover:scale-150" alt="photo">
+        <img src="../public/images/photo-6.png" class="w-full  max-w-[222px]  border-black border-2 ml-2 transform duration-300 relative hover:z-20  hover:cursor-pointer md:hover:scale-150" alt="photo">
+        <img src="../public/images/photo-7.png" class="w-full  max-w-[222px]  border-black border-2 ml-2 transform duration-300 relative hover:z-20  hover:cursor-pointer md:hover:scale-150" alt="photo">
+        <img src="../public/images/photo-8.png" class="w-full  max-w-[222px]  border-black border-2 ml-2 transform duration-300 relative hover:z-20  hover:cursor-pointer md:hover:scale-[1.3] origin-lastScale" alt="photo">
       </div>
       <div class="bg-banniere2  bg-no-repeat bg-cover min-h-screen bg-center  md:w-full bg-bannierecover">
           <h2 class="shadow-title font-body  text-[#0D146F] text-[2.5rem] md:text-[10rem]">We are open soon !</h2>
