@@ -14,26 +14,27 @@
     </div> -->
     <header class="w-full h-32 flex bg-cover">
       <div class="flex items-center justify-end  w-full">
-        <div class="flex justify-center md:justify-between w-full  flex-wrap md:flex-no-wrap">
+        <div class="flex justify-center md:justify-between w-full  flex-wrap md:flex-no-wrap px-2">
           <div></div>
           <img src="../src/assets/images/Logo_1.png" alt="logo" class="max-w-[18rem] md:max-w-sm">
-          <img src="../src/assets/images/Logo_3.png" alt="logo" class="hover:cursor-pointer transition duration-500 transform hover:rotate-180 md:max-w-[18rem] max-w-[3rem]">
+          <img src="../src/assets/images/Logo_3.png" alt="logo" class="hover:cursor-pointer   md:max-w-[18rem] max-w-[3rem]">
         </div>
      </div>
     </header>
   <main class="flex flex-col h-full grow"> 
-      <div class="w-full max-w-[100%]  justify-center sm:gap-2 mb-2 overflow-y-visible overflow-x-auto z-[999] flex">
-        <img src="../public/images/photo-1.png" class="w-full  max-w-[222px]  border-black border-2 ml-2 transform duration-500 relative hover:z-[1000]  hover:cursor-pointer  active:scale-[1.3] sm:hover:scale-[1.3] origin-firstScale" alt="photo">
-        <img src="../public/images/photo-2.png" class="w-full  max-w-[222px]  border-black border-2 ml-2 transform duration-500 relative hover:z-[1000]  hover:cursor-pointer active:scale-[1.3] sm:hover:scale-150" alt="photo">
-        <img src="../public/images/photo-3.png" class="w-full  max-w-[222px]  border-black border-2 ml-2 transform duration-500 relative hover:z-[1000]  hover:cursor-pointer active:scale-[1.3] sm:hover:scale-150" alt="photo">
-        <img src="../public/images/photo-4.png" class="w-full  max-w-[222px]  border-black border-2 ml-2 transform duration-500 relative hover:z-[1000]  hover:cursor-pointer active:scale-[1.3] sm:hover:scale-150" alt="photo">
-        <img src="../public/images/photo-5.png" class="w-full  max-w-[222px]  border-black border-2 ml-2 transform duration-500 relative hover:z-[1000]  hover:cursor-pointer active:scale-[1.3] sm:hover:scale-150" alt="photo">
-        <img src="../public/images/photo-6.png" class="w-full  max-w-[222px]  border-black border-2 ml-2 transform duration-500 relative hover:z-[1000]  hover:cursor-pointer active:scale-[1.3] sm:hover:scale-150" alt="photo">
-        <img src="../public/images/photo-7.png" class="w-full  max-w-[222px]  border-black border-2 ml-2 transform duration-500 relative hover:z-[1000]  hover:cursor-pointer active:scale-[1.3] sm:hover:scale-150" alt="photo">
-        <img src="../public/images/photo-8.png" class="w-full  max-w-[222px]  border-black border-2 ml-2 transform duration-500 relative hover:z-[1000]  hover:cursor-pointer active:scale-[1.3] sm:hover:scale-[1.3] origin-lastScale" alt="photo">
+      <div class="w-full max-w-[100%]  justify-center sm:gap-2 mb-2 sm:overflow-x-visible overflow-x-scroll z-[20] flex">
+        <img src="../public/images/photo-1.png" class="w-full  max-w-[222px]  border-black border-2 ml-2 transform duration-500 relative hover:z-[20]  hover:cursor-pointer  active:scale-[1.3] sm:hover:scale-[1.3] origin-firstScale" alt="photo">
+        <img src="../public/images/photo-2.png" class="w-full  max-w-[222px]  border-black border-2 ml-2 transform duration-500 relative hover:z-[20]  hover:cursor-pointer active:scale-[1.3] sm:hover:scale-150" alt="photo">
+        <img src="../public/images/photo-3.png" class="w-full  max-w-[222px]  border-black border-2 ml-2 transform duration-500 relative hover:z-[20]  hover:cursor-pointer active:scale-[1.3] sm:hover:scale-150" alt="photo">
+        <img src="../public/images/photo-4.png" class="w-full  max-w-[222px]  border-black border-2 ml-2 transform duration-500 relative hover:z-[20]  hover:cursor-pointer active:scale-[1.3] sm:hover:scale-150" alt="photo">
+        <img src="../public/images/photo-5.png" class="w-full  max-w-[222px]  border-black border-2 ml-2 transform duration-500 relative hover:z-[20]  hover:cursor-pointer active:scale-[1.3] sm:hover:scale-150" alt="photo">
+        <img src="../public/images/photo-6.png" class="w-full  max-w-[222px]  border-black border-2 ml-2 transform duration-500 relative hover:z-[20]  hover:cursor-pointer active:scale-[1.3] sm:hover:scale-150" alt="photo">
+        <img src="../public/images/photo-7.png" class="w-full  max-w-[222px]  border-black border-2 ml-2 transform duration-500 relative hover:z-[20]  hover:cursor-pointer active:scale-[1.3] sm:hover:scale-150" alt="photo">
+        <img src="../public/images/photo-8.png" class="w-full  max-w-[222px]  border-black border-2 ml-2 transform duration-500 relative hover:z-[20]  hover:cursor-pointer active:scale-[1.3] sm:hover:scale-[1.3] origin-lastScale" alt="photo">
       </div>
-      <div class="grow bg-banniere2  bg-no-repeat  bg-cover bg-center   bg-bannierecover">  
-        <h2 class="shadow-title font-body  text-[#0D146F] text-[2.5rem] md:text-[10rem]">We are open soon !</h2>
+      <div class="grow relative flex  flex-col items-center">  
+        <img src="../public/images/Bandeau_2.png" class="h-full" alt="bandeau carte de france">
+        <h2 class="top-[-30px] shadow-title font-body absolute text-[#0D146F] text-[2.5rem] md:text-[10rem]">We are open soon !</h2>
       </div>
   </main>
   <FooterVue/>
