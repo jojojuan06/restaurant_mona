@@ -5,6 +5,7 @@ module.exports = {
       screens:{
         'tablet': '680px',
         'midScreen':'880px',
+        'xs':'390px',
       },
       colors: {
       },
@@ -15,8 +16,8 @@ module.exports = {
         'banniere2': "url('/public/images/Bandeau_2.png')"
       },
       transformOrigin: {
-                'lastScale': 'bottom right 50px;',
-                'firstScale': 'bottom left 70px;'
+                'lastScale': 'top right 50px;',
+                'firstScale': 'top left 70px;'
       },
       backgroundSize: {
         'bannierecover2':'100% auto;'
