@@ -1,5 +1,5 @@
 <template>
-    <footer class=" pt-3  text-white flex w-full"  style="max-height: 150px;">
+    <footer class=" pt-3 mt-auto  text-white flex w-full"  style="max-height: 150px;">
             <div class="flex items-center justify-end w-full">
                 <div class="justify-center md:justify-between w-full">
                 <div></div>

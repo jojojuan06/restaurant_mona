@@ -21,7 +21,7 @@
         </div>
      </div>
     </header>
-  <main class="flex-grow h-full "> 
+  <main> 
       <div class="w-full max-w-[100%]  md:gap-x-2 pb-2 overflow-x-scroll md:overflow-visible flex">
         <img src="../public/images/photo-1.png" class="w-full  max-w-[222px]  border-black border-2 ml-2 transform duration-300 relative hover:z-20  hover:cursor-pointer md:hover:scale-[1.3] origin-firstScale" alt="photo">
         <img src="../public/images/photo-2.png" class="w-full  max-w-[222px]  border-black border-2 ml-2 transform duration-300 relative hover:z-20  hover:cursor-pointer md:hover:scale-150" alt="photo">
@@ -32,8 +32,8 @@
         <img src="../public/images/photo-7.png" class="w-full  max-w-[222px]  border-black border-2 ml-2 transform duration-300 relative hover:z-20  hover:cursor-pointer md:hover:scale-150" alt="photo">
         <img src="../public/images/photo-8.png" class="w-full  max-w-[222px]  border-black border-2 ml-2 transform duration-300 relative hover:z-20  hover:cursor-pointer md:hover:scale-[1.3] origin-lastScale" alt="photo">
       </div>
-      <div class="bg-banniere2  bg-no-repeat bg-cover min-h-screen bg-center  md:w-full bg-bannierecover">
-          <h2 class="shadow-title font-body  text-[#0D146F] text-[2.5rem] md:text-[10rem]">We are open soon !</h2>
+      <div class="bg-banniere2  bg-no-repeat bg-cover min-h-screen bg-center   bg-bannierecover">  
+        <h2 class="shadow-title font-body  text-[#0D146F] text-[2.5rem] md:text-[10rem]">We are open soon !</h2>
       </div>
   </main>
   <FooterVue/>
@@ -58,12 +58,11 @@ export default {
 }
 body {
   background-color: #d9d9d9;
-  padding: 0px; 
-  margin: 0;
 }
 html, body {
   height: 100%;
-  margin: 0
+  padding: 0; 
+  margin: 0;
 }
 h2 {
   white-space: nowrap;
