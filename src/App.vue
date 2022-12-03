@@ -23,13 +23,13 @@
     </header>
   <main class="flex flex-col h-full grow"> 
       <div class="w-full   justify-center sm:gap-2 mb-2 sm:overflow-x-visible overflow-x-scroll z-[20] flex">
-        <img src="../public/images/photo-6.png" class="w-full max-h-[220px] max-w-[222px]  border-black border-2 ml-2 transform duration-500 relative hover:z-[20]  hover:cursor-pointer  active:scale-[1.3] sm:hover:scale-[1.3] origin-firstScale" alt="photo">
-        <img src="../public/images/photo-5.png" class="w-full max-h-[220px] max-w-[300px]  border-black border-2 ml-2 transform duration-500 relative hover:z-[20]  hover:cursor-pointer active:scale-[1.3] sm:hover:scale-150 origin-top" alt="photo">
-        <img src="../public/images/photo-7.png" class="w-full max-h-[220px] max-w-[222px]  border-black border-2 ml-2 transform duration-500 relative hover:z-[20]  hover:cursor-pointer active:scale-[1.3] sm:hover:scale-150 origin-top" alt="photo">
-        <img src="../public/images/photo-8.png" class="w-full max-h-[220px] max-w-[300px]  border-black border-2 ml-2 transform duration-500 relative hover:z-[20]  hover:cursor-pointer active:scale-[1.3] sm:hover:scale-150 origin-top" alt="photo">
-        <img src="../public/images/photo-3.png" class="w-full max-h-[220px] max-w-[222px]  border-black border-2 ml-2 transform duration-500 relative hover:z-[20]  hover:cursor-pointer active:scale-[1.3] sm:hover:scale-150 origin-top" alt="photo">
-        <img src="../public/images/photo-2.png" class="w-full max-h-[220px] max-w-[300px]  border-black border-2 ml-2 transform duration-500 relative hover:z-[20]  hover:cursor-pointer active:scale-[1.3] sm:hover:scale-150 origin-top" alt="photo">
-        <img src="../public/images/photo-1.png" class="w-full max-h-[220px] max-w-[222px]  border-black border-2 ml-2 transform duration-500 relative hover:z-[20]  hover:cursor-pointer active:scale-[1.3] sm:hover:scale-150 origin-top" alt="photo">
+        <img src="../public/images/photo-6.png" class="w-full max-h-[210px] max-w-[222px]  border-black border-2 ml-2 transform duration-500 relative hover:z-[20]  hover:cursor-pointer  active:scale-[1.3] sm:hover:scale-[1.3] origin-firstScale" alt="photo">
+        <img src="../public/images/photo-5.png" class="w-full max-h-[210px] max-w-[300px]  border-black border-2 ml-2 transform duration-500 relative hover:z-[20]  hover:cursor-pointer active:scale-[1.3] sm:hover:scale-150 origin-top" alt="photo">
+        <img src="../public/images/photo-7.png" class="w-full max-h-[210px] max-w-[222px]  border-black border-2 ml-2 transform duration-500 relative hover:z-[20]  hover:cursor-pointer active:scale-[1.3] sm:hover:scale-150 origin-top" alt="photo">
+        <img src="../public/images/photo-8.png" class="w-full max-h-[210px] max-w-[300px]  border-black border-2 ml-2 transform duration-500 relative hover:z-[20]  hover:cursor-pointer active:scale-[1.3] sm:hover:scale-150 origin-top" alt="photo">
+        <img src="../public/images/photo-3.png" class="w-full max-h-[210px] max-w-[222px]  border-black border-2 ml-2 transform duration-500 relative hover:z-[20]  hover:cursor-pointer active:scale-[1.3] sm:hover:scale-150 origin-top" alt="photo">
+        <img src="../public/images/photo-2.png" class="w-full max-h-[210px] max-w-[300px]  border-black border-2 ml-2 transform duration-500 relative hover:z-[20]  hover:cursor-pointer active:scale-[1.3] sm:hover:scale-150 origin-top" alt="photo">
+        <img src="../public/images/photo-1.png" class="w-full max-h-[210px] max-w-[222px]  border-black border-2 ml-2 transform duration-500 relative hover:z-[20]  hover:cursor-pointer active:scale-[1.3] sm:hover:scale-150 origin-top-right" alt="photo">
       </div>
       <div class="relative grow flex h-full flex-col items-center">  
         <img src="../public/images/Bandeau_2.png" class="grow object-cover h-full" alt="bandeau carte de france">
@@ -86,6 +86,9 @@ header {
   background-repeat: no-repeat;
 }
 
+img:first-child {
+  margin-left: 0;
+}
 
 
 @import url('../src/assets/css/loader.css');
