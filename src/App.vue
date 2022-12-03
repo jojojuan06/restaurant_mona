@@ -1,5 +1,5 @@
 <template>
-    <!-- <div class="loader">
+    <div class="loader">
       <div class="loader__container">
         <span class="loader__quart"></span>
         <div class="loader__title">
@@ -11,7 +11,7 @@
           </div>
        </div>
       </div>
-    </div> -->
+    </div> 
     <header class="w-full h-32 flex bg-cover">
       <div class="flex items-center justify-end  w-full">
         <div class="flex justify-center md:justify-between w-full  flex-wrap md:flex-no-wrap px-2">
