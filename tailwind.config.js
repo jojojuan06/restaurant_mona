@@ -6,6 +6,7 @@ module.exports = {
         'tablet': '680px',
         'midScreen':'880px',
         'xs':'390px',
+        'xxl':'1650px,'
       },
       colors: {
       },
