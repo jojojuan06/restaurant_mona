@@ -1,5 +1,5 @@
 <template>
-    <div class="loader">
+    <!-- <div class="loader">
       <div class="loader__container">
         <span class="loader__quart"></span>
         <div class="loader__title">
@@ -11,7 +11,7 @@
           </div>
        </div>
       </div>
-    </div> 
+    </div>  -->
     <header class="w-full h-32 flex bg-cover">
       <div class="flex items-center justify-end  w-full">
         <div class="flex justify-center md:justify-between w-full  flex-wrap md:flex-no-wrap px-2">
@@ -33,7 +33,7 @@
       </div>
       <div class="relative grow flex h-full flex-col items-center">  
         <img src="../public/images/Bandeau_2.png" class="grow object-cover h-full" alt="bandeau carte de france">
-        <h2 class="flex top-2 xs:text-[3.5rem] md:top-[-30px]  shadow-title font-body absolute text-[#0D146F] text-[2.6rem] md:text-[10rem]">We are open soon !</h2>
+        <h2 class="flex top-2 xs:text-[3.5rem] md:top-[-25px]  shadow-title font-body absolute text-[#0D146F] text-[2.6rem]">We are open soon !</h2>
       </div>
   </main>
   <FooterVue/>
@@ -69,7 +69,14 @@ h2 {
   white-space: nowrap;
 }
 
+@media screen and (min-width: 768px) {
+  h2 {
+    font-size: 10rem!important;
+    top: -25px!important;
+  }
+}
 #app {
+  overflow: hidden;
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
