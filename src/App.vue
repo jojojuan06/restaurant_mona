@@ -1,5 +1,5 @@
 <template>
-    <!-- <div class="loader">
+  <!-- <div class="loader">
       <div class="loader__container">
         <span class="loader__quart"></span>
         <div class="loader__title">
@@ -12,35 +12,43 @@
        </div>
       </div>
     </div>  -->
-    <header class="w-full h-32 flex bg-cover">
-      <div class="flex items-center justify-end  w-full">
-        <div class="flex justify-center md:justify-between w-full  flex-wrap md:flex-no-wrap px-2">
-          <div></div>
-          <img src="../src/assets/images/Logo_1.png" alt="logo" class="mx-4 md:mx-0 max-w-[18rem] md:max-w-sm">
-          <img src="../src/assets/images/Logo_3.png" alt="logo" class="hover:cursor-pointer   md:max-w-[18rem] max-w-[3rem]">
-        </div>
-     </div>
-    </header>
-  <main class="flex flex-col h-full grow"> 
-      <RouterView/>
+  <header class="w-full h-32 flex bg-cover">
+    <div class="flex items-center justify-end w-full">
+      <div
+        class="flex justify-center md:justify-between w-full flex-wrap md:flex-no-wrap px-2"
+      >
+        <div></div>
+        <img
+          src="../src/assets/images/Logo_1.png"
+          alt="logo"
+          class="mx-4 md:mx-0 max-w-[18rem] md:max-w-sm"
+        />
+        <img
+          src="../src/assets/images/Logo_3.png"
+          alt="logo"
+          class="hover:cursor-pointer md:max-w-[18rem] max-w-[3rem]"
+        />
+      </div>
+    </div>
+  </header>
+  <main class="flex flex-col h-full grow">
+    <RouterView />
   </main>
-  <FooterVue/>
+  <FooterVue />
 </template>
 
 <script>
-import FooterVue from '@/components/FooterVue.vue';
-
-
+import FooterVue from "@/components/FooterVue.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     FooterVue,
   },
-}
+};
 </script>
-<style >
-* { 
+<style>
+* {
   box-sizing: border-box;
   padding: 0;
 }
@@ -48,9 +56,10 @@ body {
   min-height: 100vh;
   background-color: #d9d9d9;
 }
-html, body {
+html,
+body {
   height: 100%;
-  padding: 0; 
+  padding: 0;
   margin: 0;
 }
 h2 {
@@ -59,8 +68,8 @@ h2 {
 
 @media screen and (min-width: 768px) {
   h2 {
-    font-size: 10rem!important;
-    top: -25px!important;
+    font-size: 10rem !important;
+    top: -25px !important;
   }
 }
 #app {
@@ -77,7 +86,7 @@ h2 {
 }
 
 header {
-  background-image: url('../src/assets/images/Bandeau_1.png');
+  background-image: url("../src/assets/images/Bandeau_1.png");
   background-repeat: no-repeat;
 }
 
@@ -85,6 +94,5 @@ img:first-child {
   margin-left: 0;
 }
 
-
-@import url('../src/assets/css/loader.css');
+@import url("../src/assets/css/loader.css");
 </style>
