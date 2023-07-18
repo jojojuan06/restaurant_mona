@@ -23,8 +23,10 @@
     </div>
     <food-menus-vue></food-menus-vue>
     <div class="flex justify-end pb-4 mt-2 mr-16" @click="scrollUp">
-      <div class="bg-[#343434] rounded-full px-2 py-0 hover:scale-[1.1] duration-500">
-        <span class="text-white text-xl hover:cursor-pointer">&#x2191;</span>
+      <div
+        class="bg-[#343434] hover:cursor-pointer rounded-full px-[10px] py-0 hover:scale-[1.1] duration-500 text-white pb-[4px] pt-[1px] text-xl"
+      >
+        &#x2191;
       </div>
     </div>
   </div>

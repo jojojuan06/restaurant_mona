@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Mesmenus from '../views/MesMenusView.vue'
 import HomeView from '../views/HomeView.vue'
+import PageNotFound from '../components/PageNotfound'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -15,6 +16,11 @@ const router = createRouter({
       name: 'mesmenus',
       component:Mesmenus
     },
+    {
+      path: '/:patchMatch(.*)*',
+      name: 'NotFound',
+      component: PageNotFound
+    }
   ]
 })
 
