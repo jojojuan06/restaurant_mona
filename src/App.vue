@@ -67,7 +67,7 @@ h2 {
 
 @media screen and (min-width: 768px) {
   h2 {
-    font-size: 10rem !important;
+    font-size: 8rem !important;
     top: -25px !important;
   }
 }

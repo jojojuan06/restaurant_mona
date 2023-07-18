@@ -2,6 +2,13 @@
   <div class="bg-[#eeb685]">
     <div class="w-full relative flex justify-center items-center">
       <div class="w-[60%]">
+        <div class="flex text-black hover:cursor-pointer p-1">
+          <button
+            class="text-white rounded-full bg-[#0d146f] px-2 border-red-500 border-2 hover:shadow-lg hover:shadow-[black]"
+          >
+            <router-link :to="{ path: '/' }">&#129056; Home Page</router-link>
+          </button>
+        </div>
         <img
           class="w-full"
           src="../assets/images/photo-9.png"
@@ -10,14 +17,14 @@
       </div>
       <div class="flex w-full justify-center absolute bottom-1 md:bottom-12">
         <div class="flex md:w-1/2 flex-col">
-          <p class="text-[2vw]">15014 Spring Cypress Rd 77429 Cypress</p>
-          <p class="text-[2vw]">
+          <p class="text-[1.8vw]">15014 Spring Cypress Rd 77429 Cypress</p>
+          <p class="text-[1.8vw]">
             <strong class="text-red-500"> Reservation prefered </strong>
           </p>
-          <p class="text-[2vw]">
+          <p class="text-[1.8vw]">
             phone <strong class="text-[#304681]">281.213.4715</strong> or Facebook
           </p>
-          <p class="underline text-[2vw] whitespace-nowrap">
+          <p class="underline text-[1.8vw] whitespace-nowrap">
             Mona's french Café | Cypress TX | Facebook
           </p>
         </div>
@@ -31,6 +38,7 @@
         &#x2191;
       </div>
     </div>
+    <div></div>
   </div>
 </template>
 
