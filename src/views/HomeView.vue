@@ -40,7 +40,7 @@
   </div>
   <hr class="h-[3px] bg-[#202c55]" />
   <div class="flex flex-row z-10 flex-wrap justify-evenly">
-    <div class="ml-2 font-body text-black text-[24px] flex">
+    <div class="ml-2 font-body text-black text-[24px] flex flex-wrap">
       <h3 class="whitespace-nowrap ml-2 font-bold font-body text-[24px] text-black">
         Nos articles de presse :
       </h3>
@@ -57,7 +57,7 @@
         / Houstondine
       </a>
     </div>
-    <div class="ml-8 flex justify-center items-center">
+    <div class="ml-8 flex justify-center items-center mb-2 md:mb-0">
       <button
         class="bg-[#0d146f] hover:border-[2px] border-[#e3975c] rounded-full p-1 text-white hover:shadow-lg hover:shadow-[black] hover:scale-[.98] px-2 font-bold"
       >

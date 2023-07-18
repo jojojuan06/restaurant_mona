@@ -1,17 +1,17 @@
 <template>
-  <!-- <div class="loader">
-      <div class="loader__container">
-        <span class="loader__quart"></span>
-        <div class="loader__title">
-          <h1 class="loader__text font-body text-[3rem]">Mona's French Café</h1>
-          <div class="loader__point">
-            <p class="loader__point--1">.</p>
-            <p class="loader__point--2">.</p>
-            <p class="loader__point--3">.</p>
-          </div>
-       </div>
+  <div class="loader">
+    <div class="loader__container">
+      <span class="loader__quart"></span>
+      <div class="loader__title">
+        <h1 class="loader__text font-body text-[3rem]">Mona's French Café</h1>
+        <div class="loader__point">
+          <p class="loader__point--1">.</p>
+          <p class="loader__point--2">.</p>
+          <p class="loader__point--3">.</p>
+        </div>
       </div>
-    </div>  -->
+    </div>
+  </div>
   <header class="w-full h-32 flex bg-cover">
     <div class="flex items-center justify-end w-full">
       <div
