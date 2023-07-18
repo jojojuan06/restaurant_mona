@@ -107,7 +107,7 @@ export default {
           description: "Brioche Bun, 6oz. Burger, Lettuce, Pickles, Tomato, Red Onion",
           price: "$14.50",
           name02: "Cheeseburger",
-          price02: "$14.50",
+          price02: "$15.50",
           description02:
             "Sesame Seed Bun, 6oz. Burger, Lettuce, Pickles, Tomato, Red Onion with Cheese",
         },

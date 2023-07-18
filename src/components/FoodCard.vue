@@ -16,6 +16,7 @@
           <span>{{ foodData.price }}</span>
         </div>
       </li>
+      <div class="flex">{{ foodData.description }}</div>
       <li>
         <div class="w-full flex justify-between font-bold text-black">
           {{ foodData.name02 }}
