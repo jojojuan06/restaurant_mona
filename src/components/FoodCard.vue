@@ -1,6 +1,6 @@
 <template>
-  <div class="w-full flex justify-center pb-2 pt-2">
-    <ul class="w-[60%]">
+  <div class="w-full flex justify-center">
+    <ul class="w-[60%] bg-gray-400">
       <div class="font-bold text-black text-start w-full">{{ foodData.title }}</div>
       <div class="w-full justify-center flex">
         <img
@@ -66,9 +66,9 @@
           <span>{{ foodData.price08 }}</span>
         </div>
       </li>
+      <hr class="bg-black h-[2px]" />
     </ul>
   </div>
-  <hr class="bg-black h-[2px]" />
 </template>
 
 <script>

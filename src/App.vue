@@ -54,7 +54,6 @@ export default {
 }
 body {
   min-height: 100vh;
-  background-color: #d9d9d9;
 }
 html,
 body {

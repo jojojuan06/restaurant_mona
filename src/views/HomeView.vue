@@ -1,4 +1,13 @@
 <template>
+  <div class="flex flex-row z-10 flex-wrap justify-center bg-[#eeb685] mb-1">
+    <div class="ml-8 flex justify-center items-center mb-2 md:mb-0 top-2 p-1">
+      <button
+        class="bg-[#0d146f] border-[2px] border-red-500 rounded-full p-1 text-white hover:shadow-lg hover:shadow-[black] hover:scale-[.98] px-2 font-bold"
+      >
+        <router-link :to="{ name: 'mesmenus' }">Our menus</router-link>
+      </button>
+    </div>
+  </div>
   <div
     class="w-full justify-center sm:gap-2 mb-2 xl:overflow-x-visible overflow-x-scroll z-[20] flex"
   >
@@ -38,33 +47,6 @@
       alt="photo"
     />
   </div>
-  <hr class="h-[3px] bg-[#202c55]" />
-  <div class="flex flex-row z-10 flex-wrap justify-evenly">
-    <div class="ml-2 font-body text-black text-[24px] flex flex-wrap">
-      <h3 class="whitespace-nowrap ml-2 font-bold font-body text-[24px] text-black">
-        Nos articles de presse :
-      </h3>
-      <a
-        class="font-bold hover:underline hover:text-[#0d146f]"
-        href="https://communityimpact.com/houston/cy-fair-cypress/dining/2023/06/28/monas-french-cafe-now-open-in-cypress/"
-      >
-        Communityimpact
-      </a>
-      <a
-        class="font-bold hover:underline hover:text-[#0d146f]"
-        href="https://www.houstondine.com/100925386095232/Mona%E2%80%99s-French-Caf%C3%A9"
-      >
-        / Houstondine
-      </a>
-    </div>
-    <div class="ml-8 flex justify-center items-center mb-2 md:mb-0">
-      <button
-        class="bg-[#0d146f] hover:border-[2px] border-[#e3975c] rounded-full p-1 text-white hover:shadow-lg hover:shadow-[black] hover:scale-[.98] px-2 font-bold"
-      >
-        <router-link :to="{ name: 'mesmenus' }">Nos menus</router-link>
-      </button>
-    </div>
-  </div>
   <div class="relative grow flex h-full flex-col items-center">
     <img
       src="../assets/images/Bandeau_2.png"
@@ -72,10 +54,31 @@
       alt="bandeau carte de france"
     />
     <h2
-      class="flex top-2 xs:text-[3.5rem] md:top-[-25px] shadow-title font-body absolute text-[#0D146F] text-[2.6rem]"
+      class="flex top-2 xs:text-[3.5rem] md:top-[-25px] shadow-title font-body absolute text-[#0D146F] text-[2rem]"
     >
       We are open !
     </h2>
+  </div>
+  <hr class="h-[3px] bg-[#202c55]" />
+  <div class="flex flex-row z-10 flex-wrap justify-center">
+    <div class="ml-2 font-body text-black text-[24px] flex flex-wrap">
+      <h3 class="whitespace-nowrap ml-2 font-bold font-body text-[24px] text-black">
+        Our press articles :
+      </h3>
+      <a
+        class="font-bold text-[#0d146f] underline mr-2"
+        href="https://communityimpact.com/houston/cy-fair-cypress/dining/2023/06/28/monas-french-cafe-now-open-in-cypress/"
+      >
+        Community Impact
+      </a>
+      <div class="font-bold">/</div>
+      <a
+        class="font-bold underline text-[#0d146f] ml-2"
+        href="https://www.houstondine.com/100925386095232/Mona%E2%80%99s-French-Caf%C3%A9"
+      >
+        Houstondine
+      </a>
+    </div>
   </div>
 </template>
 
