@@ -1,7 +1,7 @@
 <template>
   <div class="bg-[#eeb685]">
     <div class="w-full relative flex justify-center items-center">
-      <div class="w-[60%]">
+      <div class="md:w-[60%]">
         <div class="flex text-black hover:cursor-pointer p-1">
           <button
             class="text-white rounded-full bg-[#0d146f] px-2 border-red-500 border-2 hover:shadow-lg hover:shadow-[black]"
@@ -15,16 +15,31 @@
           alt="mise en avant de produit"
         />
       </div>
-      <div class="flex w-full justify-center absolute bottom-1 md:bottom-12">
+      <div class="flex w-full justify-center absolute bottom-1 md:bottom-8">
         <div class="flex md:w-1/2 flex-col">
-          <p class="text-[1.8vw]">15014 Spring Cypress Rd 77429 Cypress</p>
-          <p class="text-[1.8vw]">
+          <p class="text-[4vw] md:text-[1.8vw]">15014 Spring Cypress Rd 77429 Cypress</p>
+          <p class="text-[4vw] md:text-[1.8vw]">
             <strong class="text-red-500"> Reservation prefered </strong>
           </p>
-          <p class="text-[1.8vw]">
-            phone <strong class="text-[#304681]">281.213.4715</strong> or Facebook
+          <p class="text-[4vw] md:text-[1.8vw]">
+            phone
+            <strong
+              >281.213.4715 or
+              <a
+                href="https://www.facebook.com/MonaFrenchCafe"
+                class="text-[4vw] md:text-[1.8vw] text-[#304681] underline"
+              >
+                Facebook</a
+              >
+              |
+              <a
+                href="https://www.instagram.com/monas_french_cafe_/"
+                class="underline text-[4vw ] md:text-[1.8vw] whitespace-nowrap text-[#304681] font-bold"
+                >Instagram</a
+              >
+            </strong>
           </p>
-          <p class="underline text-[1.8vw] whitespace-nowrap">
+          <p class="underline text-[4vw] md:text-[1.8vw] whitespace-nowrap">
             Mona's french Café | Cypress TX | Facebook
           </p>
         </div>

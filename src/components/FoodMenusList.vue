@@ -32,7 +32,7 @@ export default {
         },
         {
           title:
-            "LA CREPE SUCREE Add sliced Strawberries for$1.50, Bananas or extra whipped Cream foreach $1.00",
+            "LA CREPE SUCREE Add sliced Strawberries for $1.50, Bananas or extra whipped Cream foreach $1.00",
           name: "Classic Sugar Crêpe",
           price: "$4.50",
           name02: "Lemon Crêpe",
