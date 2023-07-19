@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-row z-10 flex-wrap justify-center bg-[#eeb685] mb-1">
+  <div class="flex flex-row z-10 flex-wrap justify-center bg-[#eeb685] mb-2">
     <div class="flex justify-center items-center mb-2 mt-[1px] md:mb-0 top-2 p-1">
       <button
         class="bg-[#0d146f] border-[2px] border-red-500 rounded-full p-1 text-white hover:shadow-lg hover:shadow-[black] hover:scale-[.98] px-2 font-bold"
@@ -7,6 +7,7 @@
         <router-link :to="{ name: 'mesmenus' }">Our menus</router-link>
       </button>
     </div>
+    <hr class="bg-[#0d146f] h-[4px] w-full" />
   </div>
   <div
     class="w-full justify-center sm:gap-2 mb-2 xl:overflow-x-visible overflow-x-scroll z-[20] flex"

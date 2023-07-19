@@ -2,7 +2,7 @@
   <div class="bg-[#eeb685]">
     <div class="w-full relative flex justify-center items-center">
       <div class="md:w-[60%]">
-        <div class="flex text-black hover:cursor-pointer p-1">
+        <div class="flex text-black hover:cursor-pointer p-1 justify-center">
           <button
             class="text-white rounded-full bg-[#0d146f] px-2 border-red-500 border-2 hover:shadow-lg hover:shadow-[black]"
           >

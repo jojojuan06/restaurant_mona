@@ -16,14 +16,14 @@
           <span>{{ foodData.price }}</span>
         </div>
       </li>
-      <div class="flex">{{ foodData.description }}</div>
+      <div class="flex text-black">{{ foodData.description }}</div>
       <li>
         <div class="w-full flex justify-between font-bold text-black">
           {{ foodData.name02 }}
           <span>{{ foodData.price02 }}</span>
         </div>
       </li>
-      <div class="flex">{{ foodData.description02 }}</div>
+      <div class="flex text-black text-start">{{ foodData.description02 }}</div>
       <li>
         <div class="w-full flex justify-between font-bold text-black">
           {{ foodData.name03 }}
@@ -32,21 +32,21 @@
           </span>
         </div>
       </li>
-      <div class="flex">{{ foodData.description03 }}</div>
+      <div class="flex text-black text-start">{{ foodData.description03 }}</div>
       <li>
         <div class="w-full flex justify-between font-bold text-black">
           {{ foodData.name04 }}
           <span>{{ foodData.price04 }}</span>
         </div>
       </li>
-      <div class="flex">{{ foodData.description04 }}</div>
+      <div class="flex text-black text-start">{{ foodData.description04 }}</div>
       <li>
         <div class="w-full flex justify-between font-bold text-black">
           {{ foodData.name05 }}
           <span>{{ foodData.price05 }}</span>
         </div>
       </li>
-      <div class="flex">{{ foodData.description05 }}</div>
+      <div class="flex text-black text-start">{{ foodData.description05 }}</div>
       <li>
         <div class="w-full flex justify-between font-bold text-black">
           {{ foodData.name06 }}
@@ -59,9 +59,9 @@
           <span>{{ foodData.price07 }}</span>
         </div>
       </li>
-      <div class="flex">{{ foodData.description07 }}</div>
+      <div class="flex text-black text-start">{{ foodData.description07 }}</div>
       <li>
-        <div class="w-full flex justify-between">
+        <div class="w-full flex justify-between text-black">
           {{ foodData.name08 }}
           <span>{{ foodData.price08 }}</span>
         </div>
