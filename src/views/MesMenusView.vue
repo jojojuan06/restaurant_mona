@@ -35,7 +35,7 @@
               |
               <a
                 target="_blank"
-                href="https://www.facebook.com/MonaFrenchCafe"
+                href="https://www.instagram.com/monas_french_cafe_/"
                 class="underline text-[4vw ] md:text-[1.8vw] whitespace-nowrap text-[#304681] font-bold"
                 >Instagram</a
               >
