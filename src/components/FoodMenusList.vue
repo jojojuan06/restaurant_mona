@@ -16,7 +16,7 @@ export default {
       cards: [
         {
           title: "BONJOUR,LET'S STRART THE DAY WITH A CROISSANT",
-          name: "butter croissant",
+          name: "Butter croissant",
           price: "$3.00",
           name02: "Almond Croissant",
           price02: "$3.50",

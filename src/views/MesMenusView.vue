@@ -26,6 +26,7 @@
             <strong
               >281.213.4715 or
               <a
+                target="_blank"
                 href="https://www.facebook.com/MonaFrenchCafe"
                 class="text-[4vw] md:text-[1.8vw] text-[#304681] underline"
               >
@@ -33,7 +34,8 @@
               >
               |
               <a
-                href="https://www.instagram.com/monas_french_cafe_/"
+                target="_blank"
+                href="https://www.facebook.com/MonaFrenchCafe"
                 class="underline text-[4vw ] md:text-[1.8vw] whitespace-nowrap text-[#304681] font-bold"
                 >Instagram</a
               >

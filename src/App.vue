@@ -23,11 +23,21 @@
           alt="logo"
           class="mx-4 md:mx-0 max-w-[18rem] md:max-w-sm"
         />
-        <img
-          src="../src/assets/images/Logo_3.png"
-          alt="logo"
-          class="hover:cursor-pointer md:max-w-[18rem] max-w-[3rem]"
-        />
+        <div class="flex md:w-[20%] justify-evenly">
+          <div class="flex flex-col self-center mr-2 font-bold text-[#0d146f]">
+            <a target="_blank" href="https://www.facebook.com/MonaFrenchCafe"
+              ><font-awesome-icon :icon="['fab', 'square-facebook']" /> Facebook</a
+            >
+            <a target="_blank" href="https://www.instagram.com/monas_french_cafe_/"
+              ><font-awesome-icon :icon="['fab', 'square-instagram']" /> Instagram</a
+            >
+          </div>
+          <img
+            src="../src/assets/images/Logo_3.png"
+            alt="logo"
+            class="hover:cursor-pointer md:max-w-[18rem] max-w-[3rem]"
+          />
+        </div>
       </div>
     </div>
   </header>

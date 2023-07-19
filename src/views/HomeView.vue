@@ -67,6 +67,7 @@
         Our press articles :
       </h3>
       <a
+        target="_blank"
         class="font-bold text-[#0d146f] underline mr-2 ml-2"
         href="https://communityimpact.com/houston/cy-fair-cypress/dining/2023/06/28/monas-french-cafe-now-open-in-cypress/"
       >
@@ -74,6 +75,7 @@
       </a>
       <div class="font-bold">/</div>
       <a
+        target="_blank"
         class="font-bold underline text-[#0d146f] ml-2"
         href="https://www.houstondine.com/100925386095232/Mona%E2%80%99s-French-Caf%C3%A9"
       >
