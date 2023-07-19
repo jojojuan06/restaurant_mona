@@ -1,6 +1,6 @@
 <template>
   <div class="w-full flex justify-center">
-    <ul class="w-[60%] bg-gray-400">
+    <ul class="w-[60%] bg-gray-400 p-2">
       <div class="font-bold text-black text-start w-full">{{ foodData.title }}</div>
       <div class="w-full justify-center flex">
         <img

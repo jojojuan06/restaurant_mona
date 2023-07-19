@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-row z-10 flex-wrap justify-center bg-[#eeb685] mb-1">
-    <div class="ml-8 flex justify-center items-center mb-2 md:mb-0 top-2 p-1">
+    <div class="flex justify-center items-center mb-2 mt-[1px] md:mb-0 top-2 p-1">
       <button
         class="bg-[#0d146f] border-[2px] border-red-500 rounded-full p-1 text-white hover:shadow-lg hover:shadow-[black] hover:scale-[.98] px-2 font-bold"
       >
@@ -61,12 +61,12 @@
   </div>
   <hr class="h-[3px] bg-[#202c55]" />
   <div class="flex flex-row z-10 flex-wrap justify-center">
-    <div class="ml-2 font-body text-black text-[24px] flex flex-wrap">
+    <div class="ml-2 font-body text-black text-[24px] flex flex-wrap justify-center">
       <h3 class="whitespace-nowrap ml-2 font-bold font-body text-[24px] text-black">
         Our press articles :
       </h3>
       <a
-        class="font-bold text-[#0d146f] underline mr-2"
+        class="font-bold text-[#0d146f] underline mr-2 ml-2"
         href="https://communityimpact.com/houston/cy-fair-cypress/dining/2023/06/28/monas-french-cafe-now-open-in-cypress/"
       >
         Community Impact
