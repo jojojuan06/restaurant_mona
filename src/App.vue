@@ -13,31 +13,28 @@
     </div>
   </div>
   <header class="w-full h-32 flex bg-cover">
-    <div class="flex items-center justify-end w-full">
-      <div
-        class="flex justify-center md:justify-between w-full flex-wrap md:flex-no-wrap px-2"
-      >
-        <div></div>
+    <div class="flex items-center justify-end w-full flex-wrap md:flex-nowrap">
+      <div class="flex justify-center w-full md:w-[62%] md:flex-no-wrap">
         <img
           src="../src/assets/images/Logo_1.png"
           alt="logo"
           class="mx-4 md:mx-0 max-w-[18rem] md:max-w-sm"
         />
-        <div class="flex md:w-[20%] justify-evenly">
-          <div class="flex flex-col self-center mr-2 font-bold text-[#0d146f]">
-            <a target="_blank" href="https://www.facebook.com/MonaFrenchCafe"
-              ><font-awesome-icon :icon="['fab', 'square-facebook']" /> Facebook</a
-            >
-            <a target="_blank" href="https://www.instagram.com/monas_french_cafe_/"
-              ><font-awesome-icon :icon="['fab', 'square-instagram']" /> Instagram</a
-            >
-          </div>
-          <img
-            src="../src/assets/images/Logo_3.png"
-            alt="logo"
-            class="hover:cursor-pointer md:max-w-[18rem] max-w-[3rem]"
-          />
+      </div>
+      <div class="flex md:w-[20%] w-full md:justify-evenly justify-center">
+        <div class="flex flex-col self-center mr-2 font-bold text-[#0d146f]">
+          <a target="_blank" href="https://www.facebook.com/MonaFrenchCafe"
+            ><font-awesome-icon :icon="['fab', 'square-facebook']" /> Facebook</a
+          >
+          <a target="_blank" href="https://www.instagram.com/monas_french_cafe_/"
+            ><font-awesome-icon :icon="['fab', 'square-instagram']" /> Instagram</a
+          >
         </div>
+        <img
+          src="../src/assets/images/Logo_3.png"
+          alt="logo"
+          class="hover:cursor-pointer md:max-w-[18rem] max-w-[3rem]"
+        />
       </div>
     </div>
   </header>
