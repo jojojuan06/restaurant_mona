@@ -20,7 +20,7 @@
               <span class="font-bold text-white">-</span>
               <a
                 class="text-base font-bold ml-2 hover:text-[#0D146F] .no-underline"
-                href="mailto:steve265@me.com"
+                href="mailto:monafrenchcafe@gmail.com"
                 >&#x1F4E7; Contact</a
               >
             </div>

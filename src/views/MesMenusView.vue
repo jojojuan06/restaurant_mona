@@ -9,44 +9,6 @@
         </button>
       </div>
       <hr class="bg-[#0d146f] h-[4px] w-full" />
-      <div class="md:w-[60%] pt-2">
-        <img
-          class="w-full"
-          src="../assets/images/photo-9.png"
-          alt="mise en avant de produit"
-        />
-      </div>
-      <div class="flex w-full justify-center absolute bottom-1 md:bottom-8">
-        <div class="flex md:w-1/2 flex-col">
-          <p class="text-[4vw] md:text-[1.8vw]">15014 Spring Cypress Rd 77429 Cypress</p>
-          <p class="text-[4vw] md:text-[1.8vw]">
-            <strong class="text-red-500"> Reservation prefered </strong>
-          </p>
-          <p class="text-[4vw] md:text-[1.8vw]">
-            phone
-            <strong
-              >281.213.4715 or
-              <a
-                target="_blank"
-                href="https://www.facebook.com/MonaFrenchCafe"
-                class="text-[4vw] md:text-[1.8vw] text-[#304681] underline"
-              >
-                Facebook</a
-              >
-              |
-              <a
-                target="_blank"
-                href="https://www.instagram.com/monas_french_cafe_/"
-                class="underline text-[4vw ] md:text-[1.8vw] whitespace-nowrap text-[#304681] font-bold"
-                >Instagram</a
-              >
-            </strong>
-          </p>
-          <p class="underline text-[4vw] md:text-[1.8vw] whitespace-nowrap">
-            Mona's french Café | Cypress TX | Facebook
-          </p>
-        </div>
-      </div>
     </div>
     <food-menus-vue></food-menus-vue>
     <div class="flex justify-end bottom-10 pb-4 mt-2 mr-16 relative" @click="scrollUp">

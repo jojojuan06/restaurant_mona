@@ -4,7 +4,7 @@
       <button
         class="bg-[#0d146f] border-[2px] border-red-500 rounded-full p-1 text-white hover:shadow-lg hover:shadow-[black] hover:scale-[.98] px-2 font-bold"
       >
-        <router-link :to="{ name: 'mesmenus' }">Our menus</router-link>
+        <router-link :to="{ name: 'galeries' }">Gallery photos</router-link>
       </button>
     </div>
     <hr class="bg-[#0d146f] h-[4px] w-full" />
@@ -57,7 +57,7 @@
     <h2
       class="flex top-2 xs:text-[3.5rem] md:top-[-25px] shadow-title font-body absolute text-[#0D146F] text-[2rem]"
     >
-      We are open !
+      Bienvenue
     </h2>
   </div>
   <hr class="h-[3px] bg-[#202c55]" />

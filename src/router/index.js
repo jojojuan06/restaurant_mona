@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Mesmenus from '../views/MesMenusView.vue'
 import HomeView from '../views/HomeView.vue'
+import Galeries from '../views/GaleriesView.vue'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -14,6 +15,11 @@ const router = createRouter({
       path: '/MesMenus',
       name: 'mesmenus',
       component:Mesmenus
+    },
+    {
+      path: '/Galeries',
+      name: 'galeries',
+      component:Galeries
     },
     {
       path: '/:patchMatch(.*)*',

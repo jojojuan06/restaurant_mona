@@ -22,13 +22,15 @@
         />
       </div>
       <div class="flex md:w-[20%] w-full md:justify-evenly justify-center">
-        <div class="flex flex-col self-center mr-2 font-bold text-[#0d146f]">
+        <div class="flex flex-col self-center mr-2 font-bold !text-[black]">
           <a target="_blank" href="https://www.facebook.com/MonaFrenchCafe"
-            ><font-awesome-icon :icon="['fab', 'square-facebook']" /> Facebook</a
-          >
+            ><font-awesome-icon :icon="['fab', 'square-facebook']" />
+            Facebook
+          </a>
           <a target="_blank" href="https://www.instagram.com/monas_french_cafe_/"
-            ><font-awesome-icon :icon="['fab', 'square-instagram']" /> Instagram</a
-          >
+            ><font-awesome-icon :icon="['fab', 'square-instagram']" />
+            Instagram
+          </a>
         </div>
         <img
           src="../src/assets/images/Logo_3.png"

@@ -1,9 +1,11 @@
 module.exports = {
+  important:'#app',
   content: ['./public/**/*.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   theme: {
     extend: {
       screens:{
         'tablet': '680px',
+        'tab-2':'500px',
         'midScreen':'880px',
         'xs':'390px',
         'xs-0':'300',
@@ -12,7 +14,9 @@ module.exports = {
       colors: {
       },
       fontFamily:{
-        body:['Pinyon Script']
+        body:['Pinyon Script'],
+        sans:['font-sans'],
+
       },
       backgroundImage: {
         'banniere2': "url('/public/images/Bandeau_2.png')"
