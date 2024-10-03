@@ -22,7 +22,7 @@
         />
       </div>
       <div class="flex md:w-[20%] w-full md:justify-evenly justify-center">
-        <div class="flex flex-col self-center mr-2 font-bold !text-[black]">
+        <div class="flex flex-col self-center mr-2 font-bold">
           <a target="_blank" href="https://www.facebook.com/MonaFrenchCafe"
             ><font-awesome-icon :icon="['fab', 'square-facebook']" />
             Facebook
@@ -86,7 +86,7 @@ h2 {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  /*color: #2c3e50;*/
   min-height: 100%;
   display: flex;
   flex-direction: column;

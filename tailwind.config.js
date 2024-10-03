@@ -1,6 +1,6 @@
 module.exports = {
   important:'#app',
-  content: ['./public/**/*.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
+  content: ['./public/**/*.html', './src/**/*.{js,jsx,ts,tsx,vue}'],
   theme: {
     extend: {
       screens:{
@@ -12,6 +12,7 @@ module.exports = {
         'xxl':'1650px,'
       },
       colors: {
+        'bleu':'#040d6c!important',
       },
       fontFamily:{
         body:['Pinyon Script'],

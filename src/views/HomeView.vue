@@ -55,7 +55,7 @@
       alt="bandeau carte de france"
     />
     <h2
-      class="flex top-2 xs:text-[3.5rem] md:top-[-25px] shadow-title font-body absolute text-[#0D146F] text-[2rem]"
+      class="flex top-2 xs:text-[3.5rem] md:top-[-25px] shadow-title font-body absolute !text-bleu text-[2rem]"
     >
       Bienvenue
     </h2>
